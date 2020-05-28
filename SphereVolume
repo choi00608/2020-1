@@ -1,0 +1,17 @@
+public class SphereVolume
+{
+	
+	public static void main(String[] args)
+	{
+		double r =5.0;
+		double pi = 3.14159265358979;
+		double vol = (4.0/3.0)*pi*r*r*r;
+	
+		System.out.println("SphereVolume is "+vol);
+		System.out.printf("SphereVolume is %.2f",vol);
+		
+	}
+} 
+
+
+		
