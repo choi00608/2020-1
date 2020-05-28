@@ -1,0 +1,19 @@
+public class Wholesalecost{
+ 	public static void main(String[] args){
+
+		double cp = 24.95;
+		double dr = 0.4;
+		double sc = 3.0;
+		double asc = 0.75;
+		int q = 60;
+
+	double bookcost = cp*(1.0 - dr)*q;
+	
+	double shippingcost = sc + (q-1) *  asc;
+	
+	double totalcost = bookcost + shippingcost;
+	
+	System.out.println("total $" + totalcost);
+	System.out.printf("total $%.2f", totalcost);
+}
+}
