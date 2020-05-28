@@ -1,0 +1,30 @@
+public class CelciusToFarenheit
+{
+	public static void main (String [ ] args)
+	{
+		double c1 = -40.0;
+		double c2 = -18.0;
+		double c3 = 10.0;
+		double c4 = 30.0;
+		double c5 = 40.0;
+		double c6 = 100.0;
+		
+		System.out.print("C = "+c1);
+		System.out.println(" --> F = "+(c1 * 9.0 / 5.0 + 32.0));
+		
+		System.out.print("C = "+c2);
+		System.out.println(" --> F = "+(c2 * 9.0 / 5.0 + 32.0));
+		
+		System.out.print("C = "+c3);
+		System.out.println(" --> F = "+(c3 * 9.0 / 5.0 + 32.0));
+		
+		System.out.print("C = "+c4);
+		System.out.println(" --> F = "+(c4 * 9.0 / 5.0 + 32.0));
+		
+		System.out.print("C = "+c5);
+		System.out.println(" --> F = "+(c5 * 9.0 / 5.0 + 32.0));
+
+		System.out.print("C = "+c6);
+		System.out.println(" --> F = "+(c6 * 9.0 / 5.0 + 32.0));
+	}
+}
